@@ -1,0 +1,332 @@
+[
+  {
+    "id": "foundation",
+    "title": "语言基础",
+    "description": "从第一行代码，到独立写出一个小程序。",
+    "link": "/parts/foundation",
+    "chapters": [
+      {
+        "slug": "basics",
+        "number": "01",
+        "title": "Java 基础",
+        "note": "01基础.md",
+        "modules": [
+          "01-HelloWorld",
+          "02-basic",
+          "04-array"
+        ],
+        "link": "/basics/",
+        "ready": true
+      },
+      {
+        "slug": "flow",
+        "number": "02",
+        "title": "程序流程控制",
+        "note": "02程序流程控制.md",
+        "modules": [
+          "03-flow-control"
+        ],
+        "link": "/chapters/flow",
+        "ready": false
+      }
+    ]
+  },
+  {
+    "id": "oop",
+    "title": "面向对象",
+    "description": "把类、对象、接口与多态串成一个体系。",
+    "link": "/parts/oop",
+    "chapters": [
+      {
+        "slug": "objects",
+        "number": "03",
+        "title": "面向对象",
+        "note": "03面向对象.md",
+        "modules": [
+          "05-oop"
+        ],
+        "link": "/chapters/objects",
+        "ready": false
+      },
+      {
+        "slug": "advanced-oop",
+        "number": "04",
+        "title": "高级面向对象",
+        "note": "04高级面向对象.md",
+        "modules": [
+          "06-advanced-oop",
+          "07-more-advanced-oop"
+        ],
+        "link": "/chapters/advanced-oop",
+        "ready": false
+      },
+      {
+        "slug": "interfaces",
+        "number": "05",
+        "title": "接口",
+        "note": "05接口.md",
+        "modules": [
+          "08-interface"
+        ],
+        "link": "/chapters/interfaces",
+        "ready": false
+      },
+      {
+        "slug": "oop-practice",
+        "number": "06",
+        "title": "面向对象与接口实践",
+        "note": "06面向对象与接口实践.md",
+        "modules": [
+          "08-interface"
+        ],
+        "link": "/chapters/oop-practice",
+        "ready": false
+      },
+      {
+        "slug": "inner-classes",
+        "number": "07",
+        "title": "内部类",
+        "note": "07内部类.md",
+        "modules": [
+          "09-more-advanced-oop2"
+        ],
+        "link": "/chapters/inner-classes",
+        "ready": false
+      },
+      {
+        "slug": "functional",
+        "number": "08",
+        "title": "函数式编程",
+        "note": "08函数式编程.md",
+        "modules": [
+          "10-lambda"
+        ],
+        "link": "/chapters/functional",
+        "ready": false
+      },
+      {
+        "slug": "polymorphism",
+        "number": "专题",
+        "title": "多态",
+        "note": "多态.md",
+        "modules": [
+          "06-advanced-oop",
+          "08-interface"
+        ],
+        "link": "/chapters/polymorphism",
+        "ready": false
+      }
+    ]
+  },
+  {
+    "id": "desktop",
+    "title": "常用类与 GUI",
+    "description": "从字符串处理，到可以点击操作的窗口。",
+    "link": "/parts/desktop",
+    "chapters": [
+      {
+        "slug": "string-arraylist",
+        "number": "09",
+        "title": "String 与 ArrayList",
+        "note": "09String和ArrayList.md",
+        "modules": [
+          "11-string-and-arraylist"
+        ],
+        "link": "/chapters/string-arraylist",
+        "ready": false
+      },
+      {
+        "slug": "gui",
+        "number": "10",
+        "title": "GUI 编程",
+        "note": "10GUI编程.md",
+        "modules": [
+          "12-GUI"
+        ],
+        "link": "/chapters/gui",
+        "ready": false
+      }
+    ]
+  },
+  {
+    "id": "collections",
+    "title": "异常与集合",
+    "description": "处理错误，组织数据，再用流表达处理过程。",
+    "link": "/parts/collections",
+    "chapters": [
+      {
+        "slug": "exceptions",
+        "number": "11",
+        "title": "异常",
+        "note": "11异常.md",
+        "modules": [
+          "13-collection"
+        ],
+        "link": "/chapters/exceptions",
+        "ready": false
+      },
+      {
+        "slug": "generics",
+        "number": "12",
+        "title": "泛型与包装类",
+        "note": "12泛型.md",
+        "modules": [
+          "13-collection"
+        ],
+        "link": "/chapters/generics",
+        "ready": false
+      },
+      {
+        "slug": "collections",
+        "number": "13",
+        "title": "集合",
+        "note": "13集合.md",
+        "modules": [
+          "13-collection",
+          "14-map-stream"
+        ],
+        "link": "/chapters/collections",
+        "ready": false
+      },
+      {
+        "slug": "streams",
+        "number": "14",
+        "title": "Stream 流",
+        "note": "14Stream流.md",
+        "modules": [
+          "14-map-stream"
+        ],
+        "link": "/chapters/streams",
+        "ready": false
+      }
+    ]
+  },
+  {
+    "id": "systems",
+    "title": "IO 与并发网络",
+    "description": "让数据落到文件，让线程与网络协同工作。",
+    "link": "/parts/systems",
+    "chapters": [
+      {
+        "slug": "io",
+        "number": "15",
+        "title": "文件与 IO 流",
+        "note": "15文件与IO流.md",
+        "modules": [
+          "15-file-io"
+        ],
+        "link": "/chapters/io",
+        "ready": false
+      },
+      {
+        "slug": "threads",
+        "number": "16",
+        "title": "线程与线程池",
+        "note": "16线程.md",
+        "modules": [
+          "16-thread"
+        ],
+        "link": "/chapters/threads",
+        "ready": false
+      },
+      {
+        "slug": "network",
+        "number": "17",
+        "title": "网络通信",
+        "note": "17网络通信.md",
+        "modules": [
+          "17-net"
+        ],
+        "link": "/chapters/network",
+        "ready": false
+      }
+    ]
+  },
+  {
+    "id": "reflection",
+    "title": "反射与注解",
+    "description": "从现有代码继续建立运行时机制的知识地图。",
+    "link": "/parts/reflection",
+    "chapters": [
+      {
+        "slug": "reflection",
+        "number": "18",
+        "title": "单元测试、反射与注解",
+        "note": null,
+        "modules": [
+          "18-junit-reflect-annotation-proxy"
+        ],
+        "link": "/chapters/reflection",
+        "ready": false
+      }
+    ]
+  },
+  {
+    "id": "projects",
+    "title": "项目实战",
+    "description": "把学过的技术放回自己的完整项目里。",
+    "link": "/parts/projects",
+    "chapters": [
+      {
+        "slug": "employee",
+        "number": "实战 01",
+        "title": "人事管理系统",
+        "note": "实战01-人事系统.md",
+        "modules": [
+          "anran-employee-sys"
+        ],
+        "link": "/chapters/employee",
+        "ready": false
+      },
+      {
+        "slug": "library",
+        "number": "实战 02",
+        "title": "图书管理系统",
+        "note": null,
+        "modules": [
+          "anran-library-sys"
+        ],
+        "link": "/chapters/library",
+        "ready": false
+      },
+      {
+        "slug": "chat",
+        "number": "实战 03",
+        "title": "网络聊天室",
+        "note": null,
+        "modules": [
+          "anran-network-chat-sys",
+          "anran-network-server-sys"
+        ],
+        "link": "/chapters/chat",
+        "ready": false
+      }
+    ]
+  },
+  {
+    "id": "reference",
+    "title": "语法速查",
+    "description": "随时查阅的小知识，与容易混淆的规则。",
+    "link": "/parts/reference",
+    "chapters": [
+      {
+        "slug": "syntax",
+        "number": "速查",
+        "title": "语法与 ASCII",
+        "note": "语法.md",
+        "modules": [],
+        "link": "/chapters/syntax",
+        "ready": false
+      },
+      {
+        "slug": "imports",
+        "number": "速查",
+        "title": "类、包与模块导入",
+        "note": "导入.md",
+        "modules": [],
+        "link": "/chapters/imports",
+        "ready": false
+      }
+    ]
+  }
+]

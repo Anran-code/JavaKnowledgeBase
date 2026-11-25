@@ -1,0 +1,10 @@
+node_modules/
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+docs/.vitepress/theme/generated/
+docs/public/sources/
+docs/public/source-notes.md
+.runtime/
+*.lnk
+.DS_Store
+Thumbs.db
