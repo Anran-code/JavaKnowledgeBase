@@ -26,8 +26,8 @@
         "modules": [
           "03-flow-control"
         ],
-        "link": "/chapters/flow",
-        "ready": false
+        "link": "/flow/",
+        "ready": true
       }
     ]
   },

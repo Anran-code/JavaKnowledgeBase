@@ -27,3 +27,47 @@ outline: [2, 2]
 <SourceCode id="array2d" />
 <SourceCode id="poker" />
 <SourceCode id="puzzle" />
+
+## 第二章：程序流程控制
+
+[进入本章](/flow/)
+
+### IfBranch.java
+
+<SourceCode id="flow-if" />
+
+### SwitchBranch.java
+
+<SourceCode id="flow-switch" />
+
+### While.java
+
+<SourceCode id="flow-while" />
+
+### NestedLoop.java
+
+<SourceCode id="flow-nested" />
+
+### SimpleCalculator.java
+
+<SourceCode id="flow-calculator" />
+
+### VerificationCode.java
+
+<SourceCode id="flow-verification" />
+
+### GuessNumber.java
+
+<SourceCode id="flow-guess" />
+
+### PrimeNumberPrint.java
+
+<SourceCode id="flow-prime" />
+
+### DoWhile.java
+
+<SourceCode id="flow-do" />
+
+### For.java
+
+<SourceCode id="flow-for" />

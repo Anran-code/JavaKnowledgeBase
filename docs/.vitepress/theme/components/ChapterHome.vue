@@ -24,7 +24,7 @@ const lessons=[
   <div class="hero-actions"><a class="primary-link" href="/basics/start">开始阅读</a><a class="secondary-link" href="/sources">查看本章源码</a></div>
   <div class="hero-book" aria-hidden="true"><div class="book-spine"></div><div class="book-cover"><span>ANRAN / JAVA NOTES</span><b>从理解<br>到写出来</b><code>public static void main</code><i>笔记 × 源码 × 练习</i></div><div class="book-edge"></div></div>
  </div>
- <div class="chapter-metrics"><div><b>10</b><span>个知识小节</span></div><div><b>{{meta.sourceCount}}</b><span>份真实源码</span></div><div><b>{{readCount}} / 10</b><span>小节已读</span></div></div>
+ <div class="chapter-metrics"><div><b>10</b><span>个知识小节</span></div><div><b>{{meta.basicSourceCount}}</b><span>份真实源码</span></div><div><b>{{readCount}} / 10</b><span>小节已读</span></div></div>
  <div class="chapter-note"><span class="note-icon">✦</span><div><strong>为有 C++ 基础的你整理</strong><p>熟悉的语法快速带过，把注意力放在 Java 的类型规则、对象调用和常见易错点上。</p></div></div>
  <div class="section-title"><h2 id="reading-path">本章阅读路线</h2><span>按顺序读，也可以按需查</span></div>
  <div class="lesson-list">

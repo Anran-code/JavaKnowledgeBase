@@ -1,3 +1,4 @@
+import flowLessons from './theme/flow-lessons.json'
 import catalog from './theme/catalog.json'
 import { defineConfig } from 'vitepress'
 const lessons = [
@@ -15,6 +16,7 @@ export default defineConfig({
   logo:'/book.svg',siteTitle:'安染的 Java 手册',
   nav:[{text:'总目录',link:'/',activeMatch:'^/$'},{text:'源码索引',link:'/sources'},{text:'整理说明',link:'/about'}],
   sidebar:{
+   '/flow/':[{text:'返回总目录',link:'/'},{text:'语言基础',link:'/parts/foundation'},{text:'第二章 · 程序流程控制',items:[{text:'本章导读',link:'/flow/'},...flowLessons.map(l=>({text:l.title,link:'/flow/'+l.slug}))]}],
    '/basics/':[{text:'返回总目录',link:'/'},{text:'语言基础',link:'/parts/foundation'},{text:'第一章 · Java 基础',items:[{text:'本章导读',link:'/basics/'},...lessons.map(([slug,text])=>({text,link:'/basics/'+slug}))]}],
    '/':[{text:'返回总目录',link:'/'},...catalog.map(group=>({text:group.title,link:group.link,collapsed:true,items:group.chapters.map(c=>({text:c.title,link:c.link}))}))]
   },

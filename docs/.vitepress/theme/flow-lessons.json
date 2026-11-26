@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "if",
+    "title": "if：按条件选择",
+    "description": "范围判断、短路与边界"
+  },
+  {
+    "slug": "switch",
+    "title": "switch：固定值分支",
+    "description": "case、default 与穿透"
+  },
+  {
+    "slug": "loops",
+    "title": "三种循环：执行顺序",
+    "description": "while、do-while 与 for"
+  },
+  {
+    "slug": "nested",
+    "title": "嵌套循环：行与列",
+    "description": "乘法表与金字塔"
+  },
+  {
+    "slug": "exits",
+    "title": "break、continue 与 return",
+    "description": "结束循环、跳过本轮、结束方法"
+  },
+  {
+    "slug": "calculator",
+    "title": "简易计算器复盘",
+    "description": "字符串拆分与运算分支"
+  },
+  {
+    "slug": "verification",
+    "title": "随机验证码复盘",
+    "description": "输入校验、字符映射与拼接"
+  },
+  {
+    "slug": "guess",
+    "title": "猜数字复盘",
+    "description": "固定目标、重复输入与轮数"
+  },
+  {
+    "slug": "primes",
+    "title": "素数输出复盘",
+    "description": "试除到平方根与方法前提"
+  }
+]
