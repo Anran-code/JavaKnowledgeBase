@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "objects",
+    "title": "类与对象",
+    "description": "从 Star 和 Student 理解属性、行为与对象引用"
+  },
+  {
+    "slug": "constructors",
+    "title": "构造方法与 this",
+    "description": "对象如何初始化，当前对象又是谁"
+  },
+  {
+    "slug": "encapsulation",
+    "title": "封装与数据校验",
+    "description": "private、getter、setter 的职责"
+  },
+  {
+    "slug": "static",
+    "title": "静态成员与实例成员",
+    "description": "共享的 name 和 number，各自的 age"
+  },
+  {
+    "slug": "object-arrays",
+    "title": "对象数组与扩容",
+    "description": "区分容量、数量和引用复制"
+  },
+  {
+    "slug": "movie-system",
+    "title": "电影管理练习复盘",
+    "description": "串起建模、重载、遍历与查找"
+  },
+  {
+    "slug": "summary",
+    "title": "本章总结与自测",
+    "description": "从一段流程，到几个协作的对象"
+  }
+]

@@ -1,8 +1,8 @@
 ---
-title: 本章源码索引
+title: 源码索引
 outline: [2, 2]
 ---
-# 本章源码索引
+# 源码索引
 
 这些都是从你的 JavaCode 项目只读同步的练习。切换“完整源码”可查看上下文；修改原项目后，重新启动知识库或执行 `npm run sync` 即可更新快照。
 
@@ -71,3 +71,51 @@ outline: [2, 2]
 ### For.java
 
 <SourceCode id="flow-for" />
+
+## 第三章：面向对象
+
+[进入本章](/oop/)
+
+### obj/Star.java
+
+<SourceCode id="oop-star" />
+
+### obj/Test.java
+
+<SourceCode id="oop-star-test" />
+
+### obj/Student.java
+
+<SourceCode id="oop-student" />
+
+### obj/Test2.java
+
+<SourceCode id="oop-student-test" />
+
+### encapsulation/Student.java
+
+<SourceCode id="oop-encapsulation" />
+
+### encapsulation/Test.java
+
+<SourceCode id="oop-encapsulation-test" />
+
+### staticfield/Student.java
+
+<SourceCode id="oop-static-student" />
+
+### staticfield/Test.java
+
+<SourceCode id="oop-static-test" />
+
+### practice/Movie.java
+
+<SourceCode id="oop-movie" />
+
+### practice/MovieSystem.java
+
+<SourceCode id="oop-movie-system" />
+
+### practice/Practice.java
+
+<SourceCode id="oop-practice" />

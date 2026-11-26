@@ -45,8 +45,8 @@
         "modules": [
           "05-oop"
         ],
-        "link": "/chapters/objects",
-        "ready": false
+        "link": "/oop/",
+        "ready": true
       },
       {
         "slug": "advanced-oop",

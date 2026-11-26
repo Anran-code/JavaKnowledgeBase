@@ -28,7 +28,19 @@ const entries = [
   ["flow-guess", "03-flow-control/src/com/ranan/obj/practice/GuessNumber.java", 18, 42],
   ["flow-prime", "03-flow-control/src/com/ranan/obj/practice/PrimeNumberPrint.java", 11, 30],
   ["flow-do", "03-flow-control/src/com/ranan/obj/loop/DoWhile.java", 8, 14],
-  ["flow-for", "03-flow-control/src/com/ranan/obj/loop/For.java", 8, 12]
+  ["flow-for", "03-flow-control/src/com/ranan/obj/loop/For.java", 8, 12],
+  ["oop-star", "05-oop/src/com/ranan/obj/Star.java", 3, 8],
+  ["oop-star-test", "05-oop/src/com/ranan/obj/Test.java", 4, 10],
+  ["oop-student", "05-oop/src/com/ranan/obj/Student.java", 8, 18],
+  ["oop-student-test", "05-oop/src/com/ranan/obj/Test2.java", 4, 11],
+  ["oop-encapsulation", "05-oop/src/com/ranan/encapsulation/Student.java", 12, 28],
+  ["oop-encapsulation-test", "05-oop/src/com/ranan/encapsulation/Test.java", 4, 11],
+  ["oop-static-student", "05-oop/src/com/ranan/staticfield/Student.java", 3, 11],
+  ["oop-static-test", "05-oop/src/com/ranan/staticfield/Test.java", 4, 15],
+  ["oop-movie", "05-oop/src/com/ranan/practice/Movie.java", 3, 15],
+  ["oop-movie-system", "05-oop/src/com/ranan/practice/MovieSystem.java", 4, 26],
+  ["oop-movie-search", "05-oop/src/com/ranan/practice/MovieSystem.java", 50, 62],
+  ["oop-practice", "05-oop/src/com/ranan/practice/Practice.java", 5, 29]
 ]
 const generated = path.join(root, 'docs/.vitepress/theme/generated')
 const downloads = path.join(root, 'docs/public/sources')
@@ -47,10 +59,11 @@ for(const [id, relative, start, end] of entries) {
   await fs.writeFile(path.join(downloads,id+'.java'),code)
 }
 await fs.writeFile(path.join(root,'docs/public/notes/flow.md'),await fs.readFile(path.join(sourceRoot,'notes/02程序流程控制.md'),'utf8'))
+await fs.writeFile(path.join(root,'docs/public/notes/objects.md'),await fs.readFile(path.join(sourceRoot,'notes/03面向对象.md'),'utf8'))
 const original = await fs.readFile(path.join(sourceRoot,config.notesFile),'utf8')
 await fs.writeFile(path.join(root,'docs/public/source-notes.md'),original)
 await fs.writeFile(path.join(generated,'sources.json'),JSON.stringify(sources,null,2))
 await fs.writeFile(path.join(generated,'meta.json'),JSON.stringify({
-  sourceRoot:config.sourceRoot,note:config.notesFile,basicSourceCount:10,flowSourceCount:10,sourceCount:new Set(entries.map(e=>e[1])).size,syncedAt:new Date().toISOString()
+  sourceRoot:config.sourceRoot,note:config.notesFile,basicSourceCount:10,flowSourceCount:10,oopSourceCount:11,sourceCount:new Set(entries.map(e=>e[1])).size,syncedAt:new Date().toISOString()
 },null,2))
-console.log('已只读同步 '+new Set(entries.map(e=>e[1])).size+' 个 Java 源文件和基础笔记；原项目未修改。')
+console.log('已只读同步 '+new Set(entries.map(e=>e[1])).size+' 个 Java 源文件和已整理章节的原笔记；原项目未修改。')

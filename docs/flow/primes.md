@@ -6,7 +6,7 @@ prev:
   link: /flow/guess
 next:
   text: 下一部分：面向对象
-  link: /parts/oop
+  link: /oop/
 ---
 <ReadingTools chapter="程序流程控制" chapterLink="/flow/" />
 
